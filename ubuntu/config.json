@@ -1,7 +1,7 @@
 {
   "vms": [
     {
-      "vm_id": "ubun-vm-1",
+      "vm_id": "ubun-vm-2",
       "kernel_image_path": "/home/yakup/code/gemini/deneme3/test/images/images/vmlinux-6.1.128",
       "rootfs_path": "/home/yakup/code/gemini/redeep/ubuntu-24.04.ext4",
       "vcpus": 1,
