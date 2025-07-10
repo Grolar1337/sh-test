@@ -1,0 +1,15 @@
+{
+  "vms": [
+    {
+      "vm_id": "ubun-vm-1",
+      "kernel_image_path": "/home/yakup/code/gemini/deneme3/test/images/images/vmlinux-6.1.128",
+      "rootfs_path": "/home/yakup/code/gemini/redeep/ubuntu-24.04.ext4",
+      "vcpus": 1,
+      "mem_size_mib": 512,
+      "port_forwards": [
+        { "host_port": 8080, "guest_port": 80, "protocol": "tcp" },
+        { "host_port": 2222, "guest_port": 22 }
+      ]
+    }
+  ]
+}
