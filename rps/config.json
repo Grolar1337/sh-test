@@ -1,0 +1,15 @@
+{
+  "vms": [
+    {
+      "vm_id": "rock-paper-scissor",
+      "kernel_image_path": "/home/yakup/code/gemini/deneme3/test/images/images/vmlinux-6.1.128",
+      "rootfs_path": "/home/yakup/code/gemini/testapp/rockpaperscissor.ext4",
+      "vcpus": 1,
+      "mem_size_mib": 512,
+      "port_forwards": [
+        { "host_port": 1010, "guest_port": 80, "protocol": "tcp" },
+        { "host_port": 2223, "guest_port": 22 }
+      ]
+    }
+  ]
+}
